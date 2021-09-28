@@ -33,7 +33,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1>inside outputtt!</h1>
+      <h1>Emoji Interpreter</h1>
       <input onChange={emojiInputHandler} />
       <h2 style={{ fontWeight: "Bold", fontSize: "large" }}> {meaning} </h2>
 
